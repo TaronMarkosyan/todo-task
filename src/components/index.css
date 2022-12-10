@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main-div{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.form-div{
+    max-width: 100%;
+}
+
+.form-child-div{
+    max-width: 100%;
+    display: flex; 
+    flex-direction: column;
+}
+
+.form-div p{
+    margin: 10px 10px 10px 10px;
+}
+
+.form-div-input{
+    width: 350px;
+    margin: 10px 10px 10px 10px;
+    padding: 12px;
+    border-radius: 5px;
+    border:2px solid yellow;
+    font-size:15px;
+}
+
+::placeholder{
+    color: rgb(194, 194, 194);
+}
+
+.form-div-button{
+    width: 75px;
+    padding: 12px;
+    background-color: rgb(75, 147, 255);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size:15px ;
+    float: right;
+    cursor: pointer;
+}
+
+.list-div{
+    max-width: 1150px;
+    position: absolute;
+    left: 210px;
+    top: 400px;
+    /* border: red 2px solid; */
+}
+
+.card-div{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.card-checker{ 
+    color: rgb(75, 147, 255);
+    border: 5px solid  rgb(75, 147, 255); 
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.card-div-text{
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.card-button{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 270px;
+    cursor: pointer;
+}
+
+.list-title-div{
+    max-width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 400px;
+}
+
+.list-title1{
+    font-size: 10px;
+    color: rgb(194, 194, 194);
+}
+
+.list-title2{
+    font-size: 20px;
+    color: black;
+}
+
+.completed-div{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+}
+
+.completed-div input{
+    cursor: pointer;
+}
+
+@media screen and (min-width:800px) {
+        .main-div{
+            max-width: 100%;
+        }
+        
+        .form-div{
+            max-width: 100%;
+            position: absolute;
+            left: 250px;
+            top: 200px;
+            
+        }
+        
+        .form-div p{
+            margin: 10px 10px 10px 10px;
+        }
+        
+        .form-div-input{
+            width: 900px;
+            margin: 10px 10px 10px 10px;
+            padding: 12px;
+            border-radius: 5px;
+            border:2px solid yellow;
+            font-size:15px;
+        }
+        
+        
+        .form-div-button{
+            width: 75px;
+            padding: 12px;
+            background-color: rgb(75, 147, 255);
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-size:15px ;
+            margin-left: 50px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .list-div{
+            max-width: 1150px;
+            position: absolute;
+            left: 260px;
+            top: 400px;
+        }
+        
+        .card-div{
+            max-width: 100%;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgb(194, 194, 194);
+        }
+        
+        .card-checker{ 
+            color: rgb(75, 147, 255);
+            border: 5px solid  rgb(75, 147, 255); 
+            width: 15px;
+            height: 15px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        
+        .card-div-text{
+            font-size: 15px;
+            margin-right: 500px;
+            margin-left: 50px;
+        }
+        
+        .card-button{
+            font-size: 15px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        
+        .list-title-div{
+            max-width: 1150px;
+            text-align: center;
+            position: absolute;
+            left:500px;
+            top: 400px;
+        }
+        
+        .list-title1{
+            font-size: 20px;
+            color: rgb(194, 194, 194);
+        }
+        
+        .list-title2{
+            font-size: 30px;
+            color: black;
+        }
+        
+        .completed-div{
+            width: 100%;
+            display: flex;
+            justify-content: end;
+            position: absolute;
+            top: 150px;
+            right: 400px;
+        }
+        
+        .completed-div input{
+            cursor: pointer;
+        }
+        
+    }
